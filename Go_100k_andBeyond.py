@@ -1,5 +1,10 @@
 import random
 import time
+import sys
+
+sys.setrecursionlimit(5000)
+
+
 
 def bubble_sort(arr):
     n = len(arr)
